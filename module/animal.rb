@@ -1,4 +1,4 @@
-require './living.rb'
+require_relative './living.rb'
 module Animal
 	include Living
 	def walk

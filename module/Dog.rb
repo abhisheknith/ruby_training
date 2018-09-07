@@ -1,5 +1,4 @@
-$LOAD_PATH.push(".")
-require 'Animal'
+require_relative 'Animal.rb'
 class Dog
 	include Animal
 	def bark

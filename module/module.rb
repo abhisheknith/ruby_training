@@ -1,5 +1,4 @@
-$LOAD_PATH.push(".")
-require 'Dog'
+require_relative './Dog.rb'
 dog = Dog.new
 dog.born
 dog.breath

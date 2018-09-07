@@ -8,7 +8,8 @@ end
 p sum(100, 1, 2, 3, 4, 5)
 
 def multiply(first , second = 1, third = 1)
+	p first, second, third
 	first * second * third
 end
 
-p multiply(10, third=20)
+p multiply(first=10, third=20)
